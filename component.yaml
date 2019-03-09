@@ -12,3 +12,6 @@ subcomponents:
   - name: istio-namespace
     generator: static
     path: ./manifests
+  - name: istio-init
+    generator: helm
+    path: "./tmp/istio-1.1.0-rc.3/install/kubernetes/helm/istio-init"
