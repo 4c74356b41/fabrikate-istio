@@ -1,6 +1,6 @@
 name: istio
 generator: helm
-path: "./tmp/istio-1.0.6/install/kubernetes/helm/istio"
+path: "./tmp/istio-1.1.0-rc.3/install/kubernetes/helm/istio"
 hooks:
   before-install:
     - curl -OL https://github.com/istio/istio/releases/download/1.1.0-rc.3/istio-1.1.0-rc.3-linux.tar.gz
