@@ -3,7 +3,7 @@ generator: helm
 path: "./tmp/istio-1.1.1/install/kubernetes/helm/istio"
 hooks:
   before-install:
-    - curl -OL https://github.com/istio/istio/releases/download/1.1.1/istio-1.1.1-linux.tar.gz -o istio.tar.gz
+    - curl -Lv https://github.com/istio/istio/releases/download/1.1.1/istio-1.1.1-linux.tar.gz -o istio.tar.gz
     - mkdir tmp
     - tar xvf istio.tar.gz -C tmp
   after-install:
