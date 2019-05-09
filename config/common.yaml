@@ -11,5 +11,5 @@ config:
     sidecarInjectorWebhook:
       rewriteAppHTTPProbe: true
 subcomponents:
-  istio-init:
+  istio-crd:
     namespace: istio-system
