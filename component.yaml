@@ -15,3 +15,6 @@ subcomponents:
   - name: istio-crd
     generator: helm
     path: "./tmp/istio-1.2.0/install/kubernetes/helm/istio-init"
+  - name: istio-cni
+    generator: helm
+    path: "./tmp/istio-1.2.0/install/kubernetes/helm/istio-cni"
