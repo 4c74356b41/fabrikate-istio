@@ -16,4 +16,4 @@ subcomponents:
   istio-crd:
     namespace: istio-system
   istio-cni:
-    namespace: istio-system
+    namespace: kube-system
